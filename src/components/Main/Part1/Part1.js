@@ -2,7 +2,7 @@ function Part1() {
   return (
     <div className="main">
       <div className="main-img">
-        <img src="images/3x4.jpg" alt="" />
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocJPxvwTkE9N3yv_uK7tQMaMUZ_TsUACs3ckL7maRQZk=s360-c-no" alt="" />
       </div>
       <div className="main-txt">
         <div className="it">

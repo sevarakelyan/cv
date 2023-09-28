@@ -2,7 +2,7 @@ function Part2() {
   return (
     <div className="main">
       <div className="part2-img">
-        <img src="images/proect1.png" alt="" />
+        <img src="public/images/proect1.png" alt="" />
       </div>
       <div className="part2-txt">
         <div className="part2-title">

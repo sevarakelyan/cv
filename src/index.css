@@ -132,7 +132,7 @@ main {
 .button button span:first-child {
   position: absolute;
   left: 18%;
-  top: 25%;
+  top: 17%;
   transform: scale(0);
 }
 
