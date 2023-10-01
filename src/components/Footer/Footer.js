@@ -38,7 +38,7 @@ function Footer() {
             </li>
             <li>
               <p>
-                <i className="fa fa-phone"> +374 59 29 29</i>
+                <i className="fa fa-phone"> +374 33 59 29 29</i>
               </p>
             </li>
             <li>

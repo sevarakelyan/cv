@@ -7,8 +7,7 @@ function Routee() {
       <Routes>
         <Route exact path="/" element={<Main />} />
         <Route exact path="/About" element={<About />} />
-
-        <Route></Route>
+      
       </Routes>
     </div>
   );
