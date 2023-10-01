@@ -4,7 +4,7 @@ function Header() {
   return (
     <nav>
       <ul>
-        <NavLink to="/">
+        <NavLink to="/cv">
           <li>Main</li>
         </NavLink>
         <NavLink to="/About">

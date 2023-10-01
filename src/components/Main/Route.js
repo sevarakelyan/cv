@@ -5,7 +5,7 @@ function Routee() {
   return (
     <div>
       <Routes>
-        <Route exact path="/" element={<Main />} />
+        <Route exact path="/cv" element={<Main />} />
         <Route exact path="/About" element={<About />} />
       
       </Routes>
