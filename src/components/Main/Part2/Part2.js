@@ -1,8 +1,11 @@
+import myImage from '../../../images/image.png';
+import myImage2 from '../../../images/arrow.svg';
+
 function Part2() {
   return (
     <div className="main">
       <div className="part2-img">
-        <img src="public/images/proect1.png" alt="" />
+        <img src={myImage} alt="" />
       </div>
       <div className="part2-txt">
         <div className="part2-title">
@@ -19,7 +22,7 @@ function Part2() {
           <button>
             <span>view more</span>
             <span>CLICK ME!</span>
-            <img src="images/arrow.svg" alt="" />
+            <img src={myImage2} alt="" />
           </button>
         </div>
       </div>

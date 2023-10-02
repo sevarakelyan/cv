@@ -6,7 +6,7 @@ function Footer() {
         <div className="navigation">
           <h3>navigation</h3>
           <ul>
-            <NavLink to="/">
+            <NavLink to="/cv">
               <li>Main</li>
             </NavLink>
             <NavLink to="/About">
@@ -17,9 +17,6 @@ function Footer() {
             </NavLink>
             <NavLink to="/Certificate">
               <li>Certificate</li>
-            </NavLink>
-            <NavLink to="/liroects">
-              <li>liroects</li>
             </NavLink>
             <NavLink to="/Contacts">
               <li>Contacts</li>

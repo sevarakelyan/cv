@@ -3,7 +3,7 @@ import Main from "./Main";
 import About from "./About/About";
 function Routee() {
   return (
-    <div>
+    <div className="width">
       <Routes>
         <Route exact path="/cv" element={<Main />} />
         <Route exact path="/About" element={<About />} />

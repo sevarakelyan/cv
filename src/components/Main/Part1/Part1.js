@@ -1,8 +1,12 @@
+import myImage from "../../../images/3x4.jpg";
+import myImage2 from "../../../images/arrow.svg";
+import { NavLink } from "react-router-dom";
+
 function Part1() {
   return (
     <div className="main">
       <div className="main-img">
-        <img src="https://lh3.googleusercontent.com/a/ACg8ocJPxvwTkE9N3yv_uK7tQMaMUZ_TsUACs3ckL7maRQZk=s360-c-no" alt="" />
+        <img src={myImage} alt="" />
       </div>
       <div className="main-txt">
         <div className="it">
@@ -28,11 +32,13 @@ function Part1() {
           </p>
         </div>
         <div className="button">
-          <button>
-            <span> CLICK ME!</span>
-            <span> MORE </span>
-            <img src="images/arrow.svg" alt="" />
-          </button>
+          <NavLink to="/About">
+            <button>
+              <span> CLICK ME!</span>
+              <span> MORE </span>
+              <img src={myImage2} alt="" />
+            </button>
+          </NavLink>
         </div>
       </div>
     </div>
